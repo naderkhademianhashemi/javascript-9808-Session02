@@ -1,0 +1,149 @@
+Review
+  Nature of JavaScript
+  ECMAScript vs JavaScript
+Q/A
+
+IDEs
+  VS Code intro
+    Install Live-server
+    Sample Code, string concat
+    ALWAYS OPEN WEB-DEV CONSOLE
+
+-------------------------------
+
+Base concepts:
+  varibale
+    case-sensitive
+    number 
+		NaN
+		isNaN()
+		Math.*
+		0.1 + 0.2 !== 0.3
+		paresInt vs + 
+	strings 
+		', ", ` and combination of them
+    boolean
+		== vs ===
+		falsy & truthy
+			tricks
+				object is present
+				string is defined and is not empty
+		* Guard *
+		* Default *
+	type coercion
+		***DIY***
+	if/?:
+    undefined/not defined
+    undefined vs null
+    flow control IS NOT COVERED
+    try/catch
+    dynamic
+    array
+		ponny-array!
+		new Array() / []
+		index
+		psuh/pop
+		length
+		for
+		***DIY*** 
+    function
+		no need to declare type
+		function invocation
+		return is optional
+		sample functions 
+			overloading?
+			arity
+			extra
+			rest / argumrnts
+		statment vs expression
+		first class
+		how to define function?
+		lamda/arrow function/fat arrow
+			one argumrnt
+			no or more argument
+			return  
+			***DIY***
+
+    object
+		class vs object
+		new object
+			***DIY***
+		JSON
+			syntax
+			***DIY***
+		FYI
+			Object.create(null);
+			function constructor
+			ES6 class syntax
+
+	scope
+		varibale hoisting
+		global scope
+		window
+		let, caniuse
+--------------------------------------------------------    
+
+JavaScript Runtime Envirenment
+  browser vs node etc
+  root object `window`
+DOM - Document Object Model
+  getElementById
+  HTML as initiale value for creating DOM
+  ***DIY***
+  ***inteliSense
+
+  getElement*
+    problems?
+
+  querySelector/all
+    css selector
+      *         all
+      element   div
+      .class
+      #id
+      [attr]
+    css diner
+
+  modefiying DOM 
+    !!ORDER!!
+      alert      
+    innerHTML
+    innerText
+    XSS, if we have enough time
+    getAttribute/setAttribute vs just object properties
+    removeAttribute
+    value 
+
+ALWAYS OPEN WEB-DEV CONSOLE
+Events
+  pooling vs intrupts
+  in HTML
+    on*
+      onclick <- function body
+      ***DIY***
+        tips: must click on target element      
+    pros & cons
+  in JS
+    call js function
+    ***DIY***
+        tips: where to write js code
+    onclick = ...
+    addEventListner
+      no need for 'on' prefix
+      function invocation
+      callback
+    attachEvent
+      ie
+    
+    ***addEventListener  appends event listener
+
+  DIY
+    dynamic files
+
+  setTimeout/clearTimeout
+  setInterval/clearInterval
+  
+  DIY 
+  
+  Homework
+    

@@ -1,0 +1,269 @@
+
+https://lelinhtinh.github.io/de4js/
+	JavaScript Deobfuscator and Unpacker
+obfuscator.io
+	Make your code harder to copy and prevent people from stealing your work. 
+transpile vs compile
+
+babeljs.io -- the compiler for next generation compiler
+
+windows-logo+E address - cmd
+	node --version
+
+VS Code -Help- toggle developer tools 	
+
+web server
+	Runs in server-side
+	Full access to server resources
+	Dynamic/static content
+	example
+		Apache
+		NodeJS
+		IIS
+
+web browser
+	Runs in client
+		<li>Render content</li>
+		<li>Example
+		<ul>
+			<li>Chrome </li>
+			<li>Firefox</li>
+			<li>IE</li>
+			<li>Safari</li>
+		</ul>
+	
+https://httpstatuses.com/
+
+Main Types of Client-Side Caching
+	<li>HTTP Response Code</li>
+	<li>JavaScript/Ajax</li>
+	<li>HTML5/PWA</li>
+
+<li>CSS Diner
+	<ul>
+		<li><span style="font-size:0.9em"><a href="https://flukeout.github.io/" target="_blank">https://flukeout.github.io/</a></span></li>
+	</ul>
+	</li>
+	<li>W3School
+	<ul>
+		<li><span style="font-size:0.9em"><a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">https://www.w3schools.com/cssref/css_selectors.asp</a></span></li>
+	</ul>
+	</li>
+	<li>Learn
+	<ul>
+		<li><span style="font-size:0.9em"><a href="https://learn.co/lessons/css-selectors" target="_blank">https://learn.co/lessons/css-selectors</a></span></li>
+	</ul>
+	</li>
+	<li>
+<span style="font-size:0.9em">​<span style="font-size:1.0em">Game - Cheat Sheet</span></span>
+	<ul>
+		<li><span style="font-size:0.9em">​<a href="https://frontend30.com/css-selectors-cheatsheet/" target="_blank">https://frontend30.com/css-selectors-cheatsheet/</a></span></li>
+	</ul>	
+	
+Emmet
+	!
+	#page>div.logo+ul#navigation>li*5>a{Item $}
+	
+	<div id="page">
+		<div class="logo"></div>
+		<ul id="navigation">
+			<li><a href="">Item 1</a></li>
+			<li><a href="">Item 2</a></li>
+			<li><a href="">Item 3</a></li>
+			<li><a href="">Item 4</a></li>
+			<li><a href="">Item 5</a></li>
+		</ul>
+	</div>
+	
+notepad.js.org
+	
+install VSCode Extension Live Server	
+						eslint=like compiler
+	
+javascript.json
+		snippet shortcut console.log()
+		prefix : log
+	
+Review
+  Nature of JavaScript
+  ECMAScript vs JavaScript
+Q/A
+
+IDEs
+  VS Code intro
+    Install Live-server
+    Sample Code, string concat
+    ALWAYS OPEN WEB-DEV CONSOLE
+		run vs code in cmd	
+			code .
+-------------------------------
+
+Base concepts:
+  varibale
+	let
+    case-sensitive
+    number 
+		NaN
+			0/0
+			2*"abc"
+		isNaN()
+		Math.*
+		
+		0.1 + 0.2 !== 0.3
+			(0.1*100 + 0.2*100)/100 == 0.3
+		
+		30:00
+		paresInt vs + 
+			+"10a" == NaN
+			parseInt("10a") !== NaN
+	32:00		
+	strings 
+		', ", ` and combination of them
+			back-tick`` 
+				multi-line
+				`--${varibale1}--`
+    boolean
+		== vs ===
+			
+		46:00
+		falsy & truthy
+			tricks
+				object is present
+				string is defined and is not empty
+		* Guard *
+		* Default *
+	type coercion
+		***DIY***
+	if/?:
+    undefined/not defined
+    undefined vs null
+    flow control IS NOT COVERED
+    try/catch
+    dynamic
+    array
+		ponny-array!
+		new Array() / []
+		index
+		psuh/pop
+		length
+		for
+		***DIY*** 
+    function
+		no need to declare type
+		function invocation
+		return is optional
+		sample functions 
+			overloading?
+			arity
+			extra
+			rest / arguments
+		
+	     function add(a, b, c, d, e, f, ...xyz){
+             //arguments
+             console.log(a)
+             console.log(b)
+         }
+		
+		statment vs expression
+		first class
+		how to define function?
+		lamda/arrow function/fat arrow
+			one argumrnt
+			no or more argument
+			return  
+			***DIY***
+
+    object
+		class vs object
+		new object
+			***DIY***
+		JSON
+			syntax
+			***DIY***
+		FYI
+			Object.create(null);
+			function constructor
+			ES6 class syntax
+
+	scope
+		let a = "test";
+			window.a
+			undefined
+		var b = "test2";
+		
+		varibale hoisting
+		global scope
+		window
+		let, caniuse
+--------------------------------------------------------    
+
+JavaScript Runtime Envirenment
+  browser vs node etc
+  root object `window`
+DOM - Document Object Model
+  getElementById
+  ocument.getE("my").innerText = "Hello"
+  
+  HTML as initiale value for creating DOM
+  ***DIY***
+  ***inteliSense
+
+  getElement*
+    problems?
+
+  querySelector/all
+	document.querySelector("#my").innerHTML = "TTTTTTTTT"
+	document.querySelector(".my").addEventListener('click', () => {
+            alert("Test");
+        })
+    css selector
+      *         all
+      element   div
+      .class
+      #id
+      [attr]
+    css diner
+
+  modefiying DOM 
+    !!ORDER!!
+      alert      
+    innerHTML
+    innerText
+    XSS, if we have enough time
+    getAttribute/setAttribute vs just object properties
+    removeAttribute
+    value 
+
+ALWAYS OPEN WEB-DEV CONSOLE
+Events
+  pooling vs intrupts
+  in HTML
+    on*
+      onclick <- function body
+      ***DIY***
+        tips: must click on target element      
+    pros & cons
+  in JS
+    call js function
+    ***DIY***
+        tips: where to write js code
+    onclick = ...
+    addEventListner
+      no need for 'on' prefix
+      function invocation
+      callback
+    attachEvent
+      ie
+    
+    ***addEventListener  appends event listener
+
+  DIY
+    dynamic files
+
+  setTimeout/clearTimeout
+  setInterval/clearInterval
+  
+  DIY 
+  
+  Homework
+    
